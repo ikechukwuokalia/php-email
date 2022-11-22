@@ -4,6 +4,7 @@
   "keywords": ["php","catali", "mailer", "cwos"],
   "homepage": "https://github.com/ikechukwuokalia/php-mailer",
   "type": "library",
+  "license": "MIT",
   "authors": [
       {
           "name": "Ikechukwu Okalia",
