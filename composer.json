@@ -1,0 +1,36 @@
+{
+  "name": "ikechukwuokalia/php-mailer",
+  "description": "Email helper addon for Catali Web OS",
+  "keywords": ["php","catali", "mailer", "cwos"],
+  "homepage": "https://github.com/ikechukwuokalia/php-mailer",
+  "type": "library",
+  "authors": [
+      {
+          "name": "Ikechukwu Okalia",
+          "email": "dev@ikechukwuokalia.com",
+          "homepage": "https://ikechukwuokalia.com",
+          "role": "developer"
+      }
+  ],
+  "require": {
+    "tymfrontiers-cdn/php-data" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-mysql-database" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-mysql-database-object" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-pagination" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-instance-error" : ">=0.1@stable",
+    "tymfrontiers-cdn/php-validator" : ">=0.1@stable",
+    "ikechukwuokalia/helper.cwapp" : ">=0.1@stable",
+    "mailgun/mailgun-php": ">=3.5@stable",
+    "erusev/parsedown": ">=1.7@stable"
+
+  },
+  "require-dev": {},
+  "autoload": {
+      "psr-4": {
+        "IO\\": "src/",
+        "IO\\Mailer\\": "src/",
+        "IO\\Email\\": "src/"
+      },
+      "files" : []
+  }
+}
