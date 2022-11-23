@@ -1,5 +1,5 @@
 <?php
-namespace Catali;
+namespace IO;
 use \TymFrontiers\Data,
     \TymFrontiers\MySQLDatabase,
     \TymFrontiers\MultiForm,

@@ -1,13 +1,12 @@
 <?php
-namespace Catali;
+namespace IO;
 
-use libphonenumber\Leniency\Valid;
-use \TymFrontiers\MySQLDatabase,
-    \TymFrontiers\Data,
-    \TymFrontiers\InstanceError,
-    \TymFrontiers\MultiForm,
-    \Mailgun\Mailgun,
-    \TymFrontiers\Validator;
+use TymFrontiers\MySQLDatabase,
+    TymFrontiers\Data,
+    TymFrontiers\InstanceError,
+    TymFrontiers\MultiForm,
+    Mailgun\Mailgun,
+    TymFrontiers\Validator;
 
 class Email {
   use \TymFrontiers\Helper\MySQLDatabaseObject,

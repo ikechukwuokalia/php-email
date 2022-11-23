@@ -1,5 +1,5 @@
 <?php
-namespace Catali\Mailer;
+namespace IO\Mailer;
 use \TymFrontiers\MySQLDatabase,
     \TymFrontiers\Validator;
 use function \Catali\get_constant;

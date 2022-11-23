@@ -1,5 +1,5 @@
 <?php
-namespace Catali\Email;
+namespace IO\Email;
 
 use TymFrontiers\InstanceError;
 use TymFrontiers\MultiForm;
