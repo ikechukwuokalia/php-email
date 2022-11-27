@@ -2,10 +2,10 @@
 namespace IO\Email;
 use \TymFrontiers\MySQLDatabase,
     \TymFrontiers\Validator;
-use function \Catali\get_constant;
-use function \Catali\get_dbserver;
-use function \Catali\get_database;
-use function \Catali\get_dbuser;
+use function \IO\get_constant;
+use function \get_dbserver;
+use function \get_database;
+use function \get_dbuser;
 
 class Recipient {
   use \TymFrontiers\Helper\MySQLDatabaseObject,
@@ -41,7 +41,7 @@ class Recipient {
       throw new \Exception("Email server not defined", 1);
     }
     // database name
-    if (!$db_name = get_database($srv, "email")) {
+    if (!$db_name = get_database("email", $srv)) {
       throw new \Exception("Email database name not set", 1);
     } 
     self::$_db_name = $db_name;
